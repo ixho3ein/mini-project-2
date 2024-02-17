@@ -80,6 +80,11 @@ body{
 
 }
 
+.nav-item-right:hover{
+    background-color:#04aa6d ;
+    color: #ffff;
+}
+
 .body{
     height: 550px;
     background-color: #fff4a3; ;
