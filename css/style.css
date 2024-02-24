@@ -1,49 +1,122 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+@font-face {
+    font-family:"shabnam" ;
+    src: url(./fonts/Shabnam-FD.woff2) format("woff2");
 }
 
+*{
+
+    margin: 0;
+    box-sizing: border-box;
+}
 body{
-    background-color: #76b852;
+    font-family: "shabnam",sans-serif;
+    background-color: #fafafa;
 }
 
 .container{
-    width: 300px;
-    height: 300px;
-    background-color: #FFFF;
-    margin: 110px auto;
-    border-radius: 5px;
-    box-shadow: 0 0 10px rgb(76, 75, 75);
-    padding: 40px 50px;
+    width: 1216px;
+    margin-right:auto ;
+    margin-left: auto;
+    margin-top: 56px;
+    
 }
 
 
-
-input{
-    width: 100%;
-    padding: 15px;
-    margin-bottom: 15px;
-    border:0 ;
-    background-color: #f2f2f2;
-    border-radius: 3px;
-    outline: 0;
+.head{
+    display: flex;
+    justify-content:space-between;
+    margin-bottom: 24px;
 }
-
-input[type="submit"]{
-    background-color: green;
+.title{
+    display: flex;
+    align-items: center;
 }
-
-
-.massage{
-    font-size: 12px;
-    color: #8a8888;
-    margin: 15px ;
-
+.title-icon{
+    width: 22PX;
+    height: 22px;
 }
-a{
+.title-link{
     text-decoration: none;
-    color: #76b852;
+}
+.row{
+   display: flex; 
+   gap: 24px;
+}
+
+
+.box1{
+    width: 280px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,.08);
+    padding: 20px;
+
+    
+    
+}
+.images1{
+    width: 100%;
+}
+.name{
+    font-weight: normal;
+    height: 68px;
+}
+.link{
+    text-decoration: none;
+    color: inherit;
+    font-size: 14px;
+    line-height: 1.6px;
+    
+    
+}
+.offer{
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    gap: 6px;
+}
+.product-percent{
+    background-color: aqua;
+    color: rgb(26, 26, 247);
+    font-weight: bold;
+    padding: 2px 4px;
+    display: inline-block;
+    border-radius:4px ;
+}
+.product-price{
+    text-decoration: line-through;
+    color: #656464;
+}
+.warrp{
+    display: flex;
+    justify-content: space-between;
+    margin-top:4px ;  
+}
+
+.product-percent{
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+.product-price-real{
+    font-weight: bold;
+    font-size: 18px;
+    
+}
+.product-toman{
+    font-size: 14px;
+    color: #656464;
+}
+.rating{
+    display: flex;
+    justify-content:flex-end;
+    align-items: center;
+    gap: 4px;
+}
+.product-rating{
+    font-size: 14px;
+}
+.product-icon{
+    width: 18px;
+    height: 18px;
+    color: #f1c21b;
 }
 
