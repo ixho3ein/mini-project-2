@@ -1,0 +1,142 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: " B Yekan",tahoma,Arial;
+}
+
+.container{
+    margin: 0 auto;
+    width: 1200px;
+}
+
+.header_top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:20px 0;
+}
+.header-righr{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.menu{
+    list-style-type: none;
+}
+.menu_item{
+    display: inline-block;
+    padding: 10px 20px;
+    color: gray;
+    font-size: 18px
+}
+.menu_item:hover{
+    color: rgb(122, 122, 224);
+}
+.header-left{
+    display: flex;
+    align-items: center;
+    color: blue;
+}
+.header-left p{
+    padding: 5px 20px;
+}
+.header_login{
+    background: blue;
+    /* padding: 5px; */
+    color: white;
+    border-radius: 30px;
+}
+
+.header_bottom{
+    display: flex;
+    align-items: center;
+}
+.bottom_right{
+    width: 40%;
+}
+.title{
+    color: #288ed9;
+    margin: 50px 0 10px;
+}
+.about{
+    color: #288ed9;
+    margin-bottom: 10px;
+}
+.info{
+    text-align: justify;
+    line-height: 25px;
+}
+.bottom_left{
+    width: 60%;
+    padding-right:20px ;
+}
+
+.host_info{    
+}
+.host_info_title{
+    text-align: center;
+    padding-top: 100px;
+}
+
+.host_list{
+    display: flex;
+    padding: 100px 0;
+}
+.item{
+    line-height: 25px; 
+    text-align: justify;
+    border: 1px solid lightgray;
+    border-radius: 10px;
+    padding: 40px 15px 20px;
+    margin: 0 10px;
+    color: #686868;
+    position: relative;
+}  
+
+
+.host_item_title{
+    position: absolute;
+    width: 160px;
+    background-color: #288ed9;
+    color: white;
+    top: -20px;
+    text-align: center;
+    margin: auto;
+    left: 0;
+    right: 0;
+    border-radius: 25px; 
+    padding: 5px 10px;
+}
+
+.host_cloud{
+    display: flex;
+    align-items: center;
+}
+.host_cloud_right{
+    width: 40%;
+
+}
+.host_cloud_title{
+    padding-bottom:20px ;
+}
+.host_cloud_info{
+    line-height: 25px;
+}
+.host_cloud_left{
+    width: 60%;
+}
+
+.footer{
+    text-align: center;
+    padding: 50px 0;
+    color: #999;
+}
+.social i{
+    font-size:25px;
+    padding:10px;
+}
+
+ 
